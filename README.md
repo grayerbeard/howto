@@ -8,6 +8,6 @@ These were copy pasted into Visual Studio Code and then edited formated to aid r
 
 Index
 
-[How to Document](howToDoDocs.md}
+[How to Document](/howToDoDocs.md}
 
 
