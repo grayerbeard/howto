@@ -2,10 +2,15 @@
 
 In synaptic Package Manager select these and click "Apply"
 
-gparted
-tmux
-partioninmanager
-wget
+* chromium
+* docker
+* docker-compose
+* geany
+* gparted
+* tmux
+* partioninmanager
+* thunderbird
+* wget
 
 To install visual studio code
 

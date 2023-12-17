@@ -73,3 +73,31 @@ To add Microsoft's Edge repository to your Debian 12 system, you'll need to foll
    This command will refresh your system's package database, incorporating the newly added Microsoft Edge repository.
 
 After completing these steps, your Debian system will be set up to install Microsoft Edge from Microsoft's official repository. The next step is to install Edge using the `apt` package manager. If you need any assistance with that or encounter any issues, feel free to ask!
+
+To make the vertical scroll bar wider and more visible in Debian 12, you can customize the GTK settings. Here are the steps to do so:
+
+1. Open a terminal window.
+
+2. Use a text editor of your choice to create or edit the GTK settings file. You can use the following command to open the file in the nano text editor (you can replace "nano" with your preferred text editor):
+
+   ```bash
+   nano ~/.config/gtk-3.0/settings.ini
+   ```
+
+3. If the file doesn't exist, create it. Otherwise, edit the existing file.
+
+4. Add the following lines to the file to adjust the scroll bar width and visibility:
+
+   ```ini
+   [Settings]
+   gtk-primary-button-warps-slider = false
+   gtk-scroll-bar-width = 15
+   ```
+
+   You can adjust the value of `gtk-scroll-bar-width` to your preference. A larger value will make the scroll bar wider and more visible.
+
+5. Save the file and exit the text editor.
+
+6. You may need to restart your graphical environment or log out and back in for the changes to take effect.
+
+This should make the vertical scroll bar wider and easier to see in your Debian 12 environment. Adjust the scroll-bar-width value as needed to suit your preferences.
