@@ -1,0 +1,3 @@
+paths:
+  data_directory: "/home/david/docker_data"
+  config_directory: "/home/david/.config/docker"
