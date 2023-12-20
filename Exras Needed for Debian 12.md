@@ -12,6 +12,54 @@ In synaptic Package Manager select these and click "Apply"
 * thunderbird
 * wget
 
+below is in scripts to execute use
+
+
+
+
+``` bash
+sudo ./installScripts/doAllAppInstalls.sh
+```
+
+ ```bash
+# Check if the script is running with sudo
+if [ "$EUID" -ne 0 ]; then
+    echo "This script must be run with sudo. Please use 'sudo ./doAllAppInstalls.sh'."
+    exit 1
+fi
+
+apt update -y
+
+echo chromw browser 
+apt install chromium -y
+
+echo microsoft visual studio code editor
+apt install cdde -y
+
+echo container manager
+apt install docker -y
+apt install docker-compose -y
+
+echo Geany Code editor
+apt install geany -y
+
+echo gparted partion editor
+apt install gparted -y
+
+echo Edge Browser
+apt install microsoft-edge-stable  -y
+
+echo python script multiplexor
+apt install tmux -y
+
+echo Partition manager
+apt install partioninmanager -y
+
+echo 
+apt install thunderbird -y
+apt install wget -y
+ ```
+
 To install visual studio code
 
 Yes, you can install Visual Studio Code (VSCode) on Debian 12. Here are the steps to do so:
