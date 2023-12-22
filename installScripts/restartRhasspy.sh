@@ -5,7 +5,7 @@ docker run -d -p 12101:12101 \
     --restart unless-stopped \
     -v "$HOME/.config/rhasspy/profiles:/profiles" \
     -v "/etc/localtime:/etc/localtime:ro" \
-    -v "$HOME/testAudio:/testAudio" \
+    -v "$HOME/testAudio:/home/testAudio" \
     --device /dev/snd:/dev/snd \
     rhasspy/rhasspy \
     --user-profiles /profiles \
