@@ -74,6 +74,10 @@ To add Microsoft's Edge repository to your Debian 12 system, you'll need to foll
 
 After completing these steps, your Debian system will be set up to install Microsoft Edge from Microsoft's official repository. The next step is to install Edge using the `apt` package manager. If you need any assistance with that or encounter any issues, feel free to ask!
 
+```bash
+sudo apt install microsoft-edge-beta
+```
+
 To make the vertical scroll bar wider and more visible in Debian 12, you can customize the GTK settings. Here are the steps to do so:
 
 1. Open a terminal window.
